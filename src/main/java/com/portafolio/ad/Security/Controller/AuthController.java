@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.portafolio.ad.Security.Controller;
 
 import com.portafolio.ad.Security.Dto.JwtDto;
@@ -34,7 +31,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin (origins = {"https://adfrontend.web.app","http://localhost:4200"})
+@CrossOrigin (origins = {"https://portafolio-argprograma.web.app/","http://localhost:4200"})
 
 public class AuthController {
 
